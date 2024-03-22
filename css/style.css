@@ -472,3 +472,22 @@ section {
   cursor: pointer;
   z-index: 999; /* Ensure it's above other content */
 }
+
+.logo-container {
+  display: flex;
+  justify-content: center; /* Align items horizontally in the center */
+  align-items: center; /* Align items vertically in the center */
+  padding: 0 10px; /* Add space on each side of the images */
+}
+
+.logo-brand {
+  width: 500px;
+  margin: 0 40px; /* Adjust the margin for spacing between the images */
+  filter: brightness(70%); /* Set initial brightness to 70% */
+  transition: filter 0.3s ease; /* Add transition effect for smooth hover */
+  cursor: pointer;
+}
+
+.logo-brand:hover {
+  filter: brightness(100%); /* Change brightness to 100% on hover */
+}

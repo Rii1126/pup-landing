@@ -70,6 +70,11 @@
   .enter-app {
     width: 20vh;
   }
+
+  .logo-brand {
+    width: 300px; /* Adjust width for smaller screens */
+    margin: 0 20px; /* Adjust margin for spacing between the images */
+  }
 }
 
 /* Tablet Landscape */
@@ -293,6 +298,12 @@
   .third-img {
     margin-bottom: 5vh;
   }
+
+  .logo-brand {
+    width: 140px; /* Adjust width for smaller screens */
+    margin: 0 20px; /* Adjust margin for spacing between the images */
+  }
+
 }
 
 /* Mobile Small */
