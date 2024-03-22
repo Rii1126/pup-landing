@@ -491,3 +491,18 @@ section {
 .logo-brand:hover {
   filter: brightness(100%); /* Change brightness to 100% on hover */
 }
+
+.contract {
+  color: #0052FF;
+  -webkit-text-stroke: .6px #000; /* Border width and color */
+  text-stroke: .6px #000; /* Border width and color */
+}
+
+.contract-1 {
+  background: linear-gradient(to right, #9945FF, #14F195);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-stroke: .6px #000; /* Border width and color */
+  text-stroke: .6px #000; /* Border width and color */
+}
